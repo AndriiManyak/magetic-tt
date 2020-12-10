@@ -1,0 +1,25 @@
+.card {
+  background-color: white;
+  border-radius: 10px;
+
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+
+    border-bottom: 1px solid #f0f1f0;
+
+  }
+
+  &__select {
+    border: none;
+  }
+
+  &__content {
+    height: 500px;
+
+    padding: 10px;
+  }
+}

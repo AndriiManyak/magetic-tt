@@ -1,0 +1,26 @@
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 10px 70px;
+  background-color: white;
+
+  &__input-block {
+    width: 70%;
+  }
+
+  &__input {
+    width: 50%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #b4b9bd;
+
+    padding: 5px;
+  }
+
+  &__icons {
+    display: flex;
+    align-items: center;
+  }
+}

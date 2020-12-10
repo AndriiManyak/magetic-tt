@@ -1,0 +1,43 @@
+.sidebar {
+  height: 100%;
+
+  &__heading {
+    padding: 20px 0;
+    color:#f0f1f0;
+    text-align: center;
+  }
+
+  &__open {
+    border: none;
+    background-color: white;
+    color: #333f4e;
+    outline: none;
+    cursor: pointer;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__link {
+    display: block;
+    position: relative;
+    height: 50px;
+    width: 100%;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      background-color: #f0f1f0;
+      opacity: 0.5;
+    }
+  }
+}

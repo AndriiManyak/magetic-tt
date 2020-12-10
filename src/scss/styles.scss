@@ -1,0 +1,17 @@
+@import "_vars.scss";
+@import "_reset.scss";
+@import "blocks/header.scss";
+@import "blocks/page.scss";
+@import "blocks/aside.scss";
+@import "blocks/sidebar.scss";
+@import "blocks/main.scss";
+@import "blocks/card.scss";
+@import "blocks/collapsed-sidebar.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f1f0;
+}
